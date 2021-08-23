@@ -23,7 +23,7 @@ console.log("modelloaded");
 }
 function check()
 {
-img=document.getElementById('captured image')
+img=document.getElementById('captured image');
 classifier.classify(img, gotResult);    
 }
 function gotResullt(error, results){
